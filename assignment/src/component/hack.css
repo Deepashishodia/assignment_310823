@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .min-div {
+    max-width: 20rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: rgb(226, 224, 224);
+    border-radius: 5px;
+  }
+  
+  .main-heading {
+    color: orange;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding:0.2rem;
+  }
+  
+  .center-div {
+    padding: 4px;
+    background-color: white;
+    margin: 0 auto 6px auto;
+    border-radius: 5px;
+    border: 1px solid rgb(186, 185, 185);
+  }
+  
+  button {
+    background-color: orange;
+    border: none;
+    height: 1.7rem;
+    width: auto;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 3px;
+    margin: 0.7rem auto 0 auto;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  
+  .time {
+    font-weight: 400;
+  }
+  
+  @media (max-width: 768px) {
+    .min-div {
+      max-width: 90%;
+    }
+  
+    button {
+      width: 100%;
+      margin: 0.7rem auto;
+    }
+  }
+  
